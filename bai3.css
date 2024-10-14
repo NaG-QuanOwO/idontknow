@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+    *{
+        padding:0;
+        margin:0;
+
+    }
+    #wrapper{
+        max-width: 1170px;
+        margin:0 auto
+    }
+
+    body{
+        font-family:"poppins",sans-serif;
+        background-color: black;
+        color: aliceblue;
+        font-size: 14px;
+        overflow-x:hidden ;
+    }
+
+    h3{
+        font-size: 20px;
+        color: whitesmoke;
+        padding: 20px 30px;
+        text-transform: uppercase;
+        border: 1px solid white;
+        display:inline-block;
+        font-weight: 600;
+    }
+
+    .home_section{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 20vw;
+        height: 20vh;
+        padding: 2vh 2vw;
+      }
+      
+      nav{
+        font-family:"poppins",sans-serif;
+        cursor: pointer;
+        padding: 0px 40px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+      }
+    
+    .headline{
+        text-align: center;
+        margin:40px 0;
+    }
+
+    .products{
+        list-style: none;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .products li{
+        margin-bottom: 40px;
+        flex-basis: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+
+    .product li:hover .buy-now{
+        bottom: 0px;
+    }
+
+    .products li img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .product-info a{
+        text-decoration: none;
+        display: block;
+    }
+
+    .product-cat{
+        font-size: 15px;
+        text-transform: uppercase;
+        color: darkgray;
+        padding: 2px 0px;
+    }
+
+    .product-name{
+        color: floralwhite;
+        padding: 2px 0px;
+    }
+
+    .product-price{
+        color: floralwhite;
+        padding: 2px 0px;
+        font-weight: 700;
+    }
+
+    .product-info{
+       padding: 10px 0px;
+    }
+
+    .product-top{
+        position: relative;
+    }
+    
+    .buy-now{
+        font-family: "poppins",sans-serif;
+        text-transform: uppercase;
+        font-size: 1vw;
+        font-weight: 500;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        background-color: goldenrod;
+        color: black;
+        padding: 10px 0px;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        border: 1px;
+        transition: 0.3s ease;
+    }
+
+    .buy-now:hover{
+        background-color: black;
+        color: goldenrod;
+    }
+
+    .product-thumb img{
+        display:block ;
+    }
+
+    .product-thumb{
+        display:block ;
+    }
+
+    .footer{
+        justify-content: space-between;
+        width:100vw;
+        height: 40vh;
+        padding: 0 10vw;
+        display: grid;
+        grid-template-columns: 10vw 10vw 5vw 5vw;
+        gap: 14vw;
+        align-items: center;
+        font-size: 1vw;
+        
+      }
+      
+      .footer_title{
+        font-size: 5vw;
+        font-family: "Anton",sans-serif;
+        line-height: 1;
+      }
+      
+      .footer div{
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+      }
+      
+      .footer div a{
+        cursor: pointer;
+        color: white;
+      }
+      
+      .footer div span:hover{
+        text-decoration: underline;
+      }
+
